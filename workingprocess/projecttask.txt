@@ -1,0 +1,53 @@
+**Biologics Dotnet Cafe**
+
+Welcome to the Biologics Cafe!
+
+**Task**
+
+Create a .NET console application allowing customers to order items from a menu using a text-based input system. This is a console app so the only interaction will be the users input to the terminal, responding to prompts you provide. Once you've finished working on exercise, zip up your solution and send it to us. Good luck!
+
+**Rules and Guidance**
+
+- Try not to spend more than 2-3 hours on this task.
+- No visual UI is required, except the content output in the console terminal.
+- Users should communicate with the application by typing into the terminal.
+- Try to show good programming practices.
+- Write unit tests that show the code is working as expected.
+
+**Requirements**
+
+**(1) Create console application**
+
+- Create a .NET 8 console application.
+- Create a project for unit testing. We use xUnit but feel free to use whichever unit testing tool you are familiar with.
+
+**(2) Display the menu to the user**
+
+- User can see the name and price for each item
+- Menu items are as follows:
+
+**Item**
+
+| **Type** | **Price** |
+| --- | --- |
+| BBQ Chicken Toastie | Food |
+| Ham and Cheese Toastie | Food |
+| Chocolate Brownie | Food |
+| Tea | Drink |
+| Coffee | Drink |
+| Water | Drink |
+|  |  |
+
+**(3) Order items with final bill**
+
+- Users should be able to order one or more menu items.
+- User can order multiple of the same item in a single order.
+- User is shown the total bill.
+
+**(4) Apply offers to final bill**
+
+- 10% is taken from the total bill when the customer orders both food and drink.
+- 10% is not taken from the total bill when the customer orders food and drink but that drink is water.
+- 20% is taken from the total bill when the customer spends £20.00 or over.
+- If the customer buys both food and drink and the total bill is over £20.00 ensure 20% is taken from the total bill not 30%.
+- A maximum discount of £6.00 can be taken from the bill. If a 10% or 20% reduction results in a discount of more than £6.00, reduce the discount to £6.00.

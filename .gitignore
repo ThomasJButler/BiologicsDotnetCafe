@@ -1,0 +1,47 @@
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Visual Studio Code settings
+.vscode/
+
+# Visual Studio settings
+.vs/
+
+# Dotnet-generated files
+*.dbmdl
+*.dbmdl-shm
+*.dbmdl-wal
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Logs
+*.log
+
+# NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Global ignore
+.DS_Store
+Thumbs.db
+
+# Rider/JetBrains IDEs
+.idea/
+
+# Auto-generated secret keys (if any)
+secrets.json
+
+# Publish artifacts
+publish/
