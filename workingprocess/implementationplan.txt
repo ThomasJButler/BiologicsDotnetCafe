@@ -1,0 +1,46 @@
+# Biologics Dotnet Cafe Implementation Plan
+
+## Current Status
+- ✅ Solution and project scaffolding complete (BiologicsCafe + BiologicsCafe.Tests)
+- ✅ .NET 8 setup confirmed
+- ✅ Folder and file structure created
+- ✅ .gitignore file configured
+- ✅ MenuItem model and static menu created
+- ✅ OrderService implementation
+- ✅ DiscountEngine implementation
+- ✅ Program.cs UI and flow
+- ✅ Unit testing
+
+## Implementation Tasks (Priority Order)
+
+### 1. OrderService Implementation
+- Create OrderItem class to track items and quantities
+- Implement methods to add/remove items
+- Calculate subtotal
+- Interface with DiscountEngine
+- Return complete order details
+
+### 2. DiscountEngine Implementation
+- Implement discount rules:
+  - 10% off for food + non-water drink
+  - 20% off for orders ≥ £20
+  - Apply only the better discount
+  - Cap discount at £6
+- Return discount amount and reason
+
+### 3. Program.cs Implementation
+- Create welcome message and display menu
+- Handle user input for item selection
+- Process quantities
+- Show receipt with proper formatting
+- Handle edge cases (invalid input, etc.)
+
+### 4. Unit Testing
+- Test OrderService functionality
+- Test DiscountEngine rules and edge cases
+- Test integration between components
+
+### 5. Manual Testing & Refinement
+- Test complete order flow
+- Verify discount calculations
+- Ensure proper formatting
