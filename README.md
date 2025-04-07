@@ -1,10 +1,18 @@
 # BiologicsDotnetCafe
 
-A .NET coding assessment for Waters Corporation.
+A .NET coding assessment for Waters Corporation. 
 
 ## Overview
 
 When the app is run in the terminal, the user will experience a simple, clear, and intuitive ordering system, just like walking into a cozy digital cafe.
+
+## Images 
+
+Here are images of the project solution running. 
+
+![image](https://github.com/user-attachments/assets/12e8af59-1391-4a8f-bae5-8bc3bf0b493c)
+
+![image](https://github.com/user-attachments/assets/7a67019f-3379-4f6f-8e73-c0809500d0f5)
 
 ## Project Goals
 
