@@ -1,0 +1,16 @@
+Succesful :) 
+
+
+dotnet test
+Restore complete (0.5s)
+  BiologicsCafe succeeded (2.0s) → BiologicsCafe\bin\Debug\net8.0\BiologicsCafe.dll
+  BiologicsCafe.Tests succeeded (0.2s) → BiologicsCafe.Tests\bin\Debug\net8.0\BiologicsCafe.Tests.dll
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.0.2+dd36e86129 (64-bit .NET 8.0.14)
+[xUnit.net 00:00:00.07]   Discovering: BiologicsCafe.Tests
+[xUnit.net 00:00:00.11]   Discovered:  BiologicsCafe.Tests
+[xUnit.net 00:00:00.14]   Starting:    BiologicsCafe.Tests
+[xUnit.net 00:00:00.29]   Finished:    BiologicsCafe.Tests
+  BiologicsCafe.Tests test succeeded (1.0s)
+
+Test summary: total: 32, failed: 0, succeeded: 32, skipped: 0, duration: 1.0s
+Build succeeded in 4.2s
