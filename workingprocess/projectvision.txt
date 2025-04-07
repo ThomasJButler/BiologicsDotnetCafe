@@ -1,0 +1,50 @@
+Project Vision (User Perspective)
+
+What Will the Final App Look Like?
+When the app is run in the terminal, the user will experience a simple, clear, and intuitive ordering system. Just like walking into a cozy digital cafe.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Goals:
+	•	Friendly CLI experience
+	•	Clear prompts and responses
+	•	Automatic application of the most favorable discount
+	•	Proper rounding and formatting (£)
+	•	No visual UI required—just solid terminal interaction
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Sample Console Session:
+Welcome to Biologics Dotnet Cafe! ☕🥪
+
+Here’s our menu:
+
+ 1. BBQ Chicken Toastie  (£4.50)   [Food]
+ 2. Ham and Cheese Toastie  (£4.00)   [Food]
+ 3. Chocolate Brownie  (£3.00)   [Food]
+ 4. Tea  (£2.00)   [Drink]
+ 5. Coffee  (£2.50)   [Drink]
+ 6. Water  (£1.00)   [Drink]
+
+Please enter the number of the item you’d like to order (or type 'done' to finish):
+> 1
+
+How many "BBQ Chicken Toastie" would you like?
+> 2
+
+> 4
+How many "Tea" would you like?
+> 1
+
+> done
+
+🧾 Here’s your receipt:
+
+- BBQ Chicken Toastie x2 - £9.00
+- Tea x1 - £2.00
+
+Subtotal: £11.00  
+Discount Applied: 10% Food + Drink = -£1.10  
+Total: £9.90
+
+Thank you for visiting Biologics Cafe! ☕
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
