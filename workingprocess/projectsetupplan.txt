@@ -1,0 +1,48 @@
+1. Create the Solution and Projects - DONE 
+
+dotnet new sln -n BiologicsCafe
+
+dotnet new console -n BiologicsCafe
+dotnet new xunit -n BiologicsCafe.Tests
+
+dotnet sln add BiologicsCafe/BiologicsCafe.csproj
+dotnet sln add BiologicsCafe.Tests/BiologicsCafe.Tests.csproj
+
+dotnet add BiologicsCafe.Tests/BiologicsCafe.Tests.csproj reference BiologicsCafe/BiologicsCafe.csproj
+
+----------------------------------------------------------------------------------------------------------------
+
+2. Install Required Libraries - DONE
+dotnet add BiologicsCafe.Tests package xunit
+dotnet add BiologicsCafe.Tests package xunit.runner.visualstudio
+dotnet add BiologicsCafe.Tests package Microsoft.NET.Test.Sdk
+
+----------------------------------------------------------------------------------------------------------------
+
+3.  File and Folder Structure, including tests.  -DONE
+
+BiologicsCafe/
+├── Program.cs
+├── Models/
+│   └── MenuItem.cs
+├── Services/
+│   ├── OrderService.cs
+│   └── DiscountEngine.cs
+├── Data/
+│   └── Menu.cs
+
+
+BiologicsCafe.Tests/
+├── MenuItemTests.cs
+├── OrderServiceTests.cs
+├── DiscountEngineTests.cs
+
+----------------------------------------------------------------------------------------------------------------
+
+4. After setting up, test that it builds and runs:  - DONE
+
+dotnet build
+dotnet run --project BiologicsCafe
+dotnet test
+
+----------------------------------------------------------------------------------------------------------------
