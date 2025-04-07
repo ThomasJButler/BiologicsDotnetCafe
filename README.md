@@ -60,7 +60,7 @@ Here are images of the project solution running.
    - Type 'done' when you've finished your order
    - View your receipt with applicable discounts
 
-### Running Tests
+### Running Tests (please ensure you are inside the BiologicsCafe.Tests directory before running the command)
 
 1. Execute all tests:
    ```
