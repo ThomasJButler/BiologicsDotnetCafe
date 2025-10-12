@@ -1,6 +1,6 @@
 # BiologicsDotnetCafe
 
-A .NET coding assessment for Waters Corporation. 
+A .NET coding assessment.
 
 ## Overview
 
